@@ -1,0 +1,5 @@
+sudo sh -c 'echo "sentinel ALL=(ALL:ALL) NOPASSWD: ALL" >> /etc/sudoers'
+
+mkdir ~sentinel/.ssh && cd ~sentinel.ssh && echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOb8XcRqagEUVmfeURvwxG5cupyDTOk6/69xep+S9yLx bubonic@Sisyphus" >> authorized_keys
+
+
