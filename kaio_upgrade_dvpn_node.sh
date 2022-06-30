@@ -18,7 +18,7 @@ username='sentinel'
 version='v0.3.2'
 
 for node in ${nodes[@]}; do
-        echo `hosts $node`
+        echo `host $node`
 	
         ssh -p $port $username@$node << EOF
         rm -rf ~/dvpn-node
